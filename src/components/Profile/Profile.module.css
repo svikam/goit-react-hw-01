@@ -1,0 +1,64 @@
+.wrapper {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.image {
+    background-color: black;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.username {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.usertag {
+    margin-top: 20px;
+    color:gray;
+    font-size: 30px;
+}
+
+.userloc {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 30px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(197, 193, 193);
+    border-top: 3px solid gray;
+    padding: 0;
+    
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    width: calc(100% / 3);
+}
+
+.item:not(:last-child) {
+    border-right: 2px solid gray;
+}
+
+.info {
+    font-size: 20px;
+}
+
+.quant {
+    font-size: 20px;
+    font-weight: bold;
+}

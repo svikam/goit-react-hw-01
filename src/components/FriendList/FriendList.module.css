@@ -1,0 +1,17 @@
+.friendlist {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.fritem {
+    width: calc(100% - 80px / 5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+

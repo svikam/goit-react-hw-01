@@ -1,0 +1,16 @@
+.frname {
+    font-size: 20px;
+}
+
+.status {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.red {
+    color: rgb(241, 37, 37);
+}
+
+.green {
+    color: green;
+}
